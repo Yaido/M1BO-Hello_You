@@ -208,7 +208,7 @@ def achttien():
     print("B. Je gaat online kijken naar eventuele vacatures van winkels")
     antwoord = input(": ")
     if antwoord == "a":
-        tweentwintig()
+        tweeentwintig()
     elif antwoord == "b":
         drieentwintig()
     else:

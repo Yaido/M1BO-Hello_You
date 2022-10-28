@@ -1,3 +1,5 @@
+import os
+
 def begin():
     naam = input("Hallo wat is je naam? ")
     print("\n")
@@ -32,6 +34,7 @@ def einde():
 
 
 def een():
+    os.system('cls')
     print("Leuk dat je mijn tekstbased applicatie wilt bespelen, laten we beginnen\n\nJe schrikt wakker en je hoort dat er allerlei chaos buiten aan de hand is en je hoort allemaal mensen schreeuwen, wat doe je?\n ")
     print("A: Je gaat zelf op onderzoek uit om te kijken wat er aan de hand is.")
     print("B: Je gaat eerst in je verblijf rondvragen aan andere mensen of hun weten wat er aan de hand is.")
@@ -44,6 +47,7 @@ def een():
         print("Voer een geldig antwoord in. A/B")
 
 def twee():
+    os.system('cls')
     print("\nJe komt buiten en je ziet allerlei soldaten rennen en gepantserde voertuigen rijden. Je weet dat er een oorlog is uitgebroken wat doe je?\n ")
     print("A: Je gaat zo snel mogelijk terug naar huis om je spullen op te halen zodat je kan vluchten.")
     print("B: Je vraagt aan een van de militaire officieren of je mee mag vechten om je land te beschermen.")
@@ -57,6 +61,7 @@ def twee():
         print("Voer een geldig antwoord in. A/B")
 
 def drie():
+    os.system('cls')
     print("\nJe vraagt aan allerlei mensen rond wat er aan de hand is en het komt er op neer dat er een oorlog is uitgebroken… Wat doe je?\n ")
     print("A: Je pakt je paspoort en je koffer en gaat zo snel mogelijk naar een vliegveld.")
     print("B: Je gaat eerst de mensen in je verblijf veilig stellen.")
@@ -69,6 +74,7 @@ def drie():
         print("Voer een geldig antwoord in. A/B")
 
 def vier():
+    os.system('cls')
     print("\nJe bent thuis aangekomen en pakt je spullen waar ga je heen?\n ")
     print("A: Je gaat richting de stad waar de oorlog is. ")
     print("B: Je gaat naar het vliegveld zodat je naar een ander land kan gaan. ")
@@ -81,6 +87,7 @@ def vier():
         print("Voer een geldig antwoord in. A/B")
 
 def zes():
+    os.system('cls')
     print("\nJe bent op het vliegveld aangekomen en het is heel druk, welk vliegtuig pak je?\n ")
     print("A: Je pakt het vliegtuig naar de Verenigde Staten maar de kans dat je die mist is 80%")
     print("B: Je pakt het vliegtuig naar Nederland en die kan je niet missen")
@@ -94,6 +101,7 @@ def zes():
         print("Voer een geldig antwoord in. A/B")
 
 def negen():
+    os.system('cls')
     print("\nJe bent in Nederland aangekomen wat doe je?\n ")
     print("A. Je gaat met je groep mee naar het AZC")
     print("B. Je gaat je eigen weg volgen en kijkt wel wat er gebeurd")
@@ -107,6 +115,7 @@ def negen():
         print("Voer een geldig antwoord in. A/B")
 
 def tien():
+    os.system('cls')
     print("\nJe bent aangekomen in het AZC en je krijgt 2 opties toegewezen wat doe je?\n ")
     print("A. Je krijgt aangeboden de taal te leren.")
     print("B. Je krijgt een saaie baan aangeboden om weinig geld te verdienen")
@@ -119,6 +128,7 @@ def tien():
         print("Voer een geldig antwoord in. A/B")
 
 def elf():
+    os.system('cls')
     print("\nJe krijgt je eerste les in taal, je hebt wat vrienden gemaakt wat doe je?\n ")
     print("A. Je gaat naar huis om de taal te leren")
     print("B. Je gaat met je vrienden naar buiten om wat te doen")
@@ -131,6 +141,7 @@ def elf():
         print("Voer een geldig antwoord in. A/B")
 
 def twaalf():
+    os.system('cls')
     print("\nOke, je bent gaan werken maar het blijkt saai en niet leuk werk te zijn voor weinig geld wat doe je?\n ")
     print("A. Je gaat toch de taal goed leren")
     print("B. Je hebt wat connecties gemaakt in Nederland en gaat de criminaliteit in")
@@ -143,6 +154,7 @@ def twaalf():
         print("Voer een geldig antwoord in. A/B")
 
 def dertien():
+    os.system('cls')
     print("\nJe bent naar huis gegaan om de taal te leren en je hebt al wat kennis over een paar woordjes, en je krijgt een baan aangeboden wat doe je?\n ")
     print("A. Je slaat de baan nog even af en leert de taal beter zodat je eventueel kan gaan studeren")
     print("B. Je gaat werken bij de Supermarkt als vakkenvuller")
@@ -155,6 +167,7 @@ def dertien():
         print("Voer een geldig antwoord in. A/B")
 
 def veertien():
+    os.system('cls')
     print("\nJe bent naar buiten gegaan met je vrienden en blijkt dat je vrienden in de drugs zitten wat doe je?\n ")
     print("A. Je gaat met hun mee en kijkt wat het je brengt")
     print("B. Je gaat direct naar huis en spreekt hun niet meer")
@@ -167,6 +180,7 @@ def veertien():
         print("Voer een geldig antwoord in. A/B")
 
 def vijftien():
+    os.system('cls')
     print("\nEenmaal in de criminaliteit aangekomen heb je je eigen taak gekregen wat doe je?\n ")
     print("A. Je gaat de stad in en zoekt wat mensen die je spul willen kopen.")
     print("B. Je besluit het toch niet te doen en gaat naar huis")
@@ -179,6 +193,7 @@ def vijftien():
         print("Voer een geldig antwoord in. A/B")
 
 def zestien():
+    os.system('cls')
     print("\nJe hebt een goede keuze gemaakt en besluit niet meer met hun om te gaan dus je gaat maar verder met de taal wat nu?\n ")
     print("A. Volgende dag ga je op zoek of je een bijbaantje kan vinden")
     print("B. Volgende dag ga je gewoon weer naar de taalles")
@@ -191,6 +206,7 @@ def zestien():
         print("Voer een geldig antwoord in. A/B")
 
 def zeventien():
+    os.system('cls')
     print("\nJe bent je eerste klant tegengekomen, hij heeft je betaald wat doe je?\n ")
     print("A. Je gaat terug naar je leverancier om meer te halen en het geld te leveren")
     print("B. Je gaat nog meer verkopen totdat alles op is en je niks meer hebt")
@@ -203,6 +219,7 @@ def zeventien():
         print("Voer een geldig antwoord in. A/B")
 
 def achttien():
+    os.system('cls')
     print("\nJe bent opzoek gegaan naar een bijbaantje en je bent bij de supermarkt aangekomen wat doe je?\n ")
     print("A. Je gaat gelijk vragen of je kan solliciteren in de winkel")
     print("B. Je gaat online kijken naar eventuele vacatures van winkels")
@@ -215,6 +232,7 @@ def achttien():
         print("Voer een geldig antwoord in. A/B")
 
 def negentien():
+    os.system('cls')
     print("\nJe bent weer bij de taalles wat doe je?\n ")
     print("A. Je vraagt of je leraar niet een klusje voor je heeft om wat bij te verdienen.")
     print("B. Je gaat weer terug naar huis en je doet elke dag hetzelfde totdat je werk hebt gevonden en een carrière bent gestart.")
@@ -227,6 +245,7 @@ def negentien():
         print("Voer een geldig antwoord in. A/B")
 
 def twintig():
+    os.system('cls')
     print("\nJe bent bij je leverancier maar hij is boos dat je niet alles hebt verkocht en wilt je geen nieuw spul geven totdat alles is verkocht\n ")
     print("A. Je gaat weer verkopen totdat alles op is")
     print("B. Je besluit toch nog om alles in te leveren omdat je het niet vertrouwd en naar de taalles te gaan")
@@ -238,7 +257,8 @@ def twintig():
     else:
         print("Voer een geldig antwoord in. A/B")  
 
-def eenentwintig():  
+def eenentwintig():
+    os.system('cls')  
     print("\nJe hebt alles verkocht wat doe je nu?\n ")
     print("A. Je gaat naar je leverancier geld brengen en nieuw spul ophalen")
     print("B. Je besluit al het geld zelf te houden en naar taalles te gaan")
@@ -252,6 +272,7 @@ def eenentwintig():
         print("Voer een geldig antwoord in. A/B") 
 
 def tweeentwintig():
+    os.system('cls')
     print("\nJe bent in de winkel gaan solliciteren en je bent aangenomen wat doe je?\n ")
     print("A. Je gaat jezelf gelijk inroosteren voor de week wanneer je tijd hebt")
     print("B. Je gaat eerst jezelf focussen op taalles en wat bijverdienen bij de winkel")
@@ -264,6 +285,7 @@ def tweeentwintig():
         print("Voer een geldig antwoord in. A/B") 
 
 def drieentwintig():
+    os.system('cls')
     print("\nJe bent uitgekomen op een winkel vlakbij jou huis en bent aangenomen wat doe je?\n ")
     print("A. Je gaat jezelf gelijk inroosteren voor de week wanneer je tijd hebt")
     print("B. Je gaat eerst jezelf focussen op taalles en wat bijverdienen bij de winkel")
@@ -276,18 +298,22 @@ def drieentwintig():
         print("Voer een geldig antwoord in. A/B")
 
 def vierentwintig():
-     print("\nJe leraar heeft helaas geen klusje voor je en zegt dat je je eerst moet focussen op de taal.\n ")
-     einde()
+    os.system('cls')
+    print("\nJe leraar heeft helaas geen klusje voor je en zegt dat je je eerst moet focussen op de taal.\n ")
+    einde()
 
 def vijfentwintig():
+    os.system('cls')
     print("\nJe bouwt een goede band op met je leverancier, maar uiteindelijk word je doodgemaakt door hem, hij was niet te vertrouwen.\n")
     einde()
 
 def zevenentwintig():
+    os.system('cls')
     print("\nJe hebt een goede carrière opgebouwd en blijft jezelf focussen op je taal en krijgt goed werk!\n")
     einde()
 
 def achtentwintig():
+    os.system('cls')
     print("\nNadat je bent geslaagd voor je taal en je de taal volledig kent ben je wat gaan doen wat je leuk vind en bent succesvol geworden in nederland!	\n")
     einde()
 

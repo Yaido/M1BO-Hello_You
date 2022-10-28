@@ -4,7 +4,7 @@ def pprint(msg):
     for letter in msg:
         sys.stdout.write(letter)
         sys.stdout.flush()
-        time.sleep(0.023)
+        time.sleep(0.02)
     print('\n')
 
 def begin():
@@ -29,6 +29,7 @@ def af():
             begin()
         elif antwoord == "nee":
             pprint("Oke helaas, je kan altijd opnieuw terugkomen")
+            begin()
         else:
             ("Vul een geldig antwoord in. Ja/Nee")
 
@@ -83,7 +84,7 @@ def drie():
         if antwoord == "a":
             zes()
         elif antwoord == "b":
-            pprint("De soldaten waren te het bedrijf binnengevallen en je bent af gegaan")
+            pprint("De soldaten waren het bedrijf binnengevallen en je bent af gegaan")
             af() 
         else:
             pprint("Voer een geldig antwoord in. A/B")

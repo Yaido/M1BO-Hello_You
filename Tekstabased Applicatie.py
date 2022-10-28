@@ -2,6 +2,7 @@ import os
 
 def begin():
     while True:
+        os.system('cls')
         naam = input("Hallo wat is je naam? ")
         print("\n")
         beginnen = input("Hallo " + naam + ", wil je mijn tekstbased applicatie bespelen? Ja/Nee\n: ")
@@ -75,6 +76,7 @@ def drie():
         if antwoord == "a":
             zes()
         elif antwoord == "b":
+            print("De soldaten waren te het bedrijf binnengevallen en je bent af gegaan")
             af() 
         else:
             print("Voer een geldig antwoord in. A/B")
@@ -95,7 +97,6 @@ def vier():
 
 def zes():
     while True:
-        os.system('cls')
         print("\nJe bent op het vliegveld aangekomen en het is heel druk, welk vliegtuig pak je?\n ")
         print("A: Je pakt het vliegtuig naar de Verenigde Staten maar de kans dat je die mist is 80%")
         print("B: Je pakt het vliegtuig naar Nederland en die kan je niet missen")

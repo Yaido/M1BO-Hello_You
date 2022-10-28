@@ -109,7 +109,7 @@ def negen():
     if antwoord == "a":
         tien()
     elif antwoord == "b":
-        print("\nJe hebt geen geld dus bent niet ver gekomen, begin opnieuw.\n")
+        print("\nJe hebt geen geld dus bent niet ver gekomen.\n")
         af()
     else:
         print("Voer een geldig antwoord in. A/B")

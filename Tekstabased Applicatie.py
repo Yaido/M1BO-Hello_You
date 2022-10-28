@@ -1,36 +1,39 @@
 import os
 
 def begin():
-    naam = input("Hallo wat is je naam? ")
-    print("\n")
-    beginnen = input("Hallo " + naam + ", wil je mijn tekstbased applicatie bespelen? Ja/Nee\n: ")
-    if beginnen == "ja":
-        een()
-    elif beginnen == "nee":
-        print("Oke helaas misschien wil je een andere keer terugkomen")
-        begin()
-    else:
-        print("Voer een geldig antwoord in. Ja/Nee")
+    while True:
+        naam = input("Hallo wat is je naam? ")
+        print("\n")
+        beginnen = input("Hallo " + naam + ", wil je mijn tekstbased applicatie bespelen? Ja/Nee\n: ")
+        if beginnen == "ja":
+            een()
+        elif beginnen == "nee":
+            print("Oke helaas misschien wil je een andere keer terugkomen")
+            begin()
+        else:
+            print("Voer een geldig antwoord in. Ja/Nee")
 
 def af():
-    print("Helaas, je bent afgegaan in mijn applicatie en hebt het einde niet bereikt. \nWil je het opnieuw proberen? Ja/Nee")
-    antwoord = input(":")
-    if antwoord == "ja":
-        begin()
-    elif antwoord == "nee":
-        print("Oke helaas, je kan altijd opnieuw terugkomen")
-    else:
-        ("Vul een geldig antwoord in. Ja/Nee")
+    while True:
+        print("Helaas, je bent afgegaan in mijn applicatie en hebt het einde niet bereikt. \nWil je het opnieuw proberen? Ja/Nee")
+        antwoord = input(":")
+        if antwoord == "ja":
+            begin()
+        elif antwoord == "nee":
+            print("Oke helaas, je kan altijd opnieuw terugkomen")
+        else:
+            ("Vul een geldig antwoord in. Ja/Nee")
 
 def einde():
-    print("Hallo, je hebt een einde gevonden in mijn tektstbased applicatie\nMaar er zijn meerdere einden")
-    antwoord = input("Zou je het opnieuw willen proberen? Ja/Nee")
-    if antwoord == "ja":
-        begin()
-    elif antwoord == "nee":
-        print("Oke helaas dat je het niet nog een keer wilt proberen.")
-    else:
-        print("Voer een geldig antwoord in. Ja/Nee")
+    while True:
+        print("Hallo, je hebt een einde gevonden in mijn tektstbased applicatie\nMaar er zijn meerdere einden")
+        antwoord = input("Zou je het opnieuw willen proberen? Ja/Nee")
+        if antwoord == "ja":
+            begin()
+        elif antwoord == "nee":
+            print("Oke helaas dat je het niet nog een keer wilt proberen.")
+        else:
+            print("Voer een geldig antwoord in. Ja/Nee")
 
 
 def een():

@@ -40,7 +40,7 @@ def einde():
 def een():
     while True:
         os.system('cls')
-        print("Leuk dat je mijn tekstbased applicatie wilt bespelen, laten we beginnen\n\nJe schrikt wakker en je hoort dat er allerlei chaos buiten aan de hand is en je hoort allemaal mensen schreeuwen, wat doe je?\n ")
+        print("Leuk dat je mijn tekstbased applicatie wilt bespelen, laten we beginnen. LET OP: Deze tekstbased applicatie is hoofdlettergevoelig, dus geen hoofdletters gebruiken!\n\nJe schrikt wakker en je hoort dat er allerlei chaos buiten aan de hand is en je hoort allemaal mensen schreeuwen, wat doe je?\n ")
         print("A: Je gaat zelf op onderzoek uit om te kijken wat er aan de hand is.")
         print("B: Je gaat eerst in je verblijf rondvragen aan andere mensen of hun weten wat er aan de hand is.")
         antwoord = input(": ")

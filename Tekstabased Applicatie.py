@@ -105,6 +105,7 @@ def vier():
 
 def zes():
     while True:
+        os.system('cls')
         pprint("\nJe bent op het vliegveld aangekomen en het is heel druk, welk vliegtuig pak je?\n ")
         pprint("A: Je pakt het vliegtuig naar de Verenigde Staten maar de kans dat je die mist is 80%")
         pprint("B: Je pakt het vliegtuig naar Nederland en die kan je niet missen")
